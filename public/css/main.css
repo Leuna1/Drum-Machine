@@ -1,0 +1,52 @@
+#root {
+  background: linear-gradient(30deg, #b92b27, #1565c0);
+  min-height:100vh;
+}
+
+.title {
+  color: white;
+}
+
+.clip {
+  display: none;
+}
+
+#drum-machine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: rgba(73,73,73,.7);
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.drum-pad-container {
+  width: 20%;
+  margin: 1% 5%;
+}
+
+.drum-options-toggle {
+  display: inline;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.drum-pad {
+  background-color: #AAA;
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
+
+#display {
+  width: 100%;
+  min-height: 40px;
+  margin: 0 20px 20px 20px;
+  background: linear-gradient(45deg, rgb(163,174,157),rgb(140,150,130));
+  font-family: consolas;
+  text-align: center;
+  font-size: 1.5rem;
+}
